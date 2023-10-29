@@ -8,7 +8,7 @@ const Hero = () => {
       <Navbar />
 
       <div className="flex flex-col items-center justify-around h-[60%]">
-        <h1 className="font-heading  text-[3.5rem] text-white">
+        <h1 className="font-heading  text-[3.5rem] text-white-only">
           WE ARE CREATIVES
         </h1>
         <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">

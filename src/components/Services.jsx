@@ -7,24 +7,20 @@ const Services = () => {
   return (
     <div>
       <div className="flex h-[80vh]">
-        {/* <TextSection
-        heading={'Transform your brand'}
-        description={
-          'We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.'
-        }
-        link={'#'}
-      /> */}
         <div className="flex flex-1 justify-center items-center h-[80vh]">
-          <div className="flex flex-col gap-5 w-[68%]">
-            <h1 className="font-heading text-[36px] w-[70%]">
+          <div className="flex flex-col gap-5 w-[68%] items-start">
+            <h1 className="font-heading text-dark-blue text-[36px] w-[70%]">
               Transform your brand
             </h1>
-            <p className="font-body font-bold text-[18px] text-base ">
+            <p className="font-body text-dark-grayish-blue font-bold text-[18px] leading-6 border-2 border-yellow-only">
               We are a full-service creative agency specializing in helping
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </p>
-            <a href="#" className="font-heading">
+            <a
+              href="#"
+              className="font-heading inline border-b-4 border-soft-red border-solid pb-2"
+            >
               LEARN MORE
             </a>
           </div>
@@ -39,7 +35,7 @@ const Services = () => {
           <img src={RightImage} alt="" className="h-full w-full" />
         </div>
         <div className="flex flex-1 justify-center items-center h-[80vh]">
-          <div className="flex flex-col gap-5 w-[68%]">
+          <div className="flex flex-col gap-5 w-[68%] items-start">
             <h1 className="font-heading text-[36px] w-[70%]">
               Transform your brand
             </h1>
@@ -48,7 +44,10 @@ const Services = () => {
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </p>
-            <a href="#" className="font-heading">
+            <a
+              href="#"
+              className="font-heading inline border-b-4 border-soft-red border-solid pb-2"
+            >
               LEARN MORE
             </a>
           </div>
