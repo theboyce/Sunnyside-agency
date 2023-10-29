@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="h-[15vh] w-[100%] flex justify-between items-center px-[2rem]">
       <Logo fill="#ffffff" />
-      <nav className="flex gap-10 justify-end items-center flex-1 ">
+      <nav className="sm:hidden md:flex gap-10 justify-end items-center flex-1 ">
         <a href="#" className="text-white-only text-[18px] font-body">
           About
         </a>

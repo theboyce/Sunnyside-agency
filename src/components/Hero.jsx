@@ -4,16 +4,16 @@ import bg from '../assets/desktop/image-header.jpg';
 
 const Hero = () => {
   return (
-    <div className="h-screen bg-hero-pattern bg-cover bg-center">
+    <div className="h-screen bg-hero-small lg:bg-hero-pattern bg-cover bg-center">
       <Navbar />
 
       <div className="flex flex-col items-center justify-around h-[60%]">
-        <h1 className="font-heading  text-[3.5rem] text-white-only">
+        <h1 className="sm:text-[2.8rem] sm:text-center font-heading  text-[3.5rem] text-white-only tracking-wider">
           WE ARE CREATIVES
         </h1>
         <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
           <g
-            stroke="#FFF"
+            stroke="#FFFFFF"
             stroke-width="6"
             fill="none"
             fill-rule="evenodd"
