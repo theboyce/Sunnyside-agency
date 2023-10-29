@@ -13,6 +13,8 @@ export default {
         'first-service': "url('/src/assets/desktop/image-graphic-design.jpg')",
         'second-service': "url('/src/assets/desktop/image-photography.jpg')",
         'hero-small': "url('/src/assets/desktop/image-header.jpg')",
+        'graphic-design': "url('/src/assets/mobile/image-graphic-design.jpg')",
+        'photograpy-mobile': "url('/src/assets/mobile/image-photograpy.jpg')",
       },
     },
     fontFamily: {

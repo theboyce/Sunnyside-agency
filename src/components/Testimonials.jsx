@@ -32,14 +32,17 @@ const Testimonials = () => {
 
   return (
     // Main container for the section
-    <div className="h-[90vh] bg-white flex flex-col justify-center gap-14 items-center ">
+    <div className="h-[1000px] md:h-[90vh] bg-white flex flex-col justify-center gap-14 items-center ">
       <h1 className="font-heading text-[20px] tracking-widest text-grayish-blue">
         CLIENT TESTIMONIALS
       </h1>
       {/*Container for the testimonials */}
-      <div className="flex justify-between w-[84%] ">
+      <div className="flex flex-col gap-4 md:flex-row md:justify-between w-[84%] ">
         {testimonials.map((testimonial, i) => (
-          <div key={i} className="flex flex-col gap-6 items-center w-[30%]">
+          <div
+            key={i}
+            className="flex flex-col gap-6 items-center w-[80%] md:w-[30%]"
+          >
             <img
               src={testimonial.image}
               alt=""
