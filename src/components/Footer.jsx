@@ -4,10 +4,10 @@ import Logo from './Logo';
 const Footer = () => {
   return (
     <div className="bg-dark-moderate-cyan h-[45vh] flex justify-center items-center">
-      <div className="flex flex-col gap-10 items-center self-center">
+      <div className="flex flex-col gap-12 md:gap-10 items-center self-center">
         <Logo fill={'hsl(167, 40%, 24%)'} />
         {/* Navigation Elements */}
-        <div className="flex gap-6">
+        <div className="flex gap-12 md:gap-6">
           <a
             href="#"
             className="text-dark-desaturated-cyan text-[18px] font-body"

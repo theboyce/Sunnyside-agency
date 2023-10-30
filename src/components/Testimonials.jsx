@@ -32,12 +32,12 @@ const Testimonials = () => {
 
   return (
     // Main container for the section
-    <div className="h-[1000px] md:h-[90vh] bg-white flex flex-col justify-center gap-14 items-center ">
-      <h1 className="font-heading text-[20px] tracking-widest text-grayish-blue">
+    <div className="h-[1050px] md:h-[90vh] bg-white flex flex-col justify-center gap-14 items-center ">
+      <h1 className="font-heading text-[18px] md:text-[20px] tracking-widest text-grayish-blue">
         CLIENT TESTIMONIALS
       </h1>
       {/*Container for the testimonials */}
-      <div className="flex flex-col gap-4 md:flex-row items-center w-[84%] ">
+      <div className="flex flex-col gap-12 md:gap-6 md:flex-row items-center w-[84%] ">
         {testimonials.map((testimonial, i) => (
           <div
             key={i}

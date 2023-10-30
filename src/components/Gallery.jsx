@@ -6,7 +6,7 @@ import Cone from '../assets/desktop/image-gallery-cone.jpg';
 
 const Gallery = () => {
   return (
-    <div className=" grid grid-cols-2 md:flex h-[30vh] md:h-[60vh]">
+    <div className=" grid grid-cols-2 md:flex  md:h-[60vh]">
       <img src={MilkBottles} alt="" className="md:flex-1 object-cover" />
       <img src={Orange} alt="" className="col- md:flex-1 object-cover" />
       <img src={Cone} alt="" className="flex-1 object-cover" />
