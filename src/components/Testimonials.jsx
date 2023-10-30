@@ -37,7 +37,7 @@ const Testimonials = () => {
         CLIENT TESTIMONIALS
       </h1>
       {/*Container for the testimonials */}
-      <div className="flex flex-col gap-4 md:flex-row md:justify-between w-[84%] ">
+      <div className="flex flex-col gap-4 md:flex-row items-center w-[84%] ">
         {testimonials.map((testimonial, i) => (
           <div
             key={i}
