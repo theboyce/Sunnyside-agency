@@ -3,8 +3,8 @@ import Logo from './Logo';
 
 const Footer = () => {
   return (
-    <div className="bg-dark-moderate-cyan h-[45vh] flex justify-center items-center">
-      <div className="flex flex-col gap-12 md:gap-10 items-center self-center">
+    <div className="bg-dark-moderate-cyan h-[50vh] flex justify-center items-center">
+      <div className="flex flex-col gap-14 md:gap-12 items-center self-center">
         <Logo fill={'hsl(167, 40%, 24%)'} />
         {/* Navigation Elements */}
         <div className="flex gap-12 md:gap-6">

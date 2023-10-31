@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from './Logo';
+import Dropdown from './Dropdown';
 
-const Navbar = () => {
+const Navbar = ({ toggleMenu }) => {
   return (
     <div className="h-[15vh] w-[100%] flex justify-between items-center px-[2rem]">
       <Logo fill="#ffffff" />
@@ -19,6 +20,16 @@ const Navbar = () => {
           CONTACT
         </button>
       </nav>
+
+      <div className="" onClick={() => toggleMenu()}>
+        <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z"
+            fill="#FFF"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
     </div>
   );
 };
