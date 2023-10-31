@@ -12,7 +12,10 @@ const Hero = () => {
   };
 
   return (
-    <div className="h-screen bg-hero-small lg:bg-hero-pattern bg-cover bg-center relative">
+    <div
+      onClick={() => toggleMenu()}
+      className="h-screen bg-hero-small lg:bg-hero-pattern bg-cover bg-center relative"
+    >
       <Navbar toggleMenu={toggleMenu} />
       {
         // if open is true, ...
